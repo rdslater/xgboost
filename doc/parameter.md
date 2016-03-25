@@ -49,9 +49,9 @@ Parameters for Tree Booster
 * colsample_bylevel [default=1]
   - subsample ratio of columns for each split, in each level.
   - range: (0,1]
-* lambda [default=1]
+* reg_lambda [default=1]
   - L2 regularization term on weights
-* alpha [default=0]
+* reg_alpha [default=0]
   - L1 regularization term on weights
 * tree_method, string [default='auto']
   - The tree constructtion algorithm used in XGBoost(see description in the [reference paper](http://arxiv.org/abs/1603.02754))
